@@ -209,14 +209,6 @@
     }
 }
 
-@media (max-width: 666px) {
-    .title-landing {
-        font-size: 20px;
-
-    }
-}
-
-
 @media (max-width: 424px) {
 
     .title-landing,
@@ -226,49 +218,5 @@
 
     .subtitulo-section {
         font-size: 10px;
-    }
-}
-
-@media (max-width: 374px) {
-    #botao-separado {
-        display: none;
-    }
-
-    .logo {
-        margin-left: 20%;
-    }
-
-    .title-landing {
-        font-size: 15px;
-    }
-
-    .btn-download {
-        padding: 1px;
-    }
-
-    .style-standard {
-        font-size: 10px;
-        font-weight: 600;
-        letter-spacing: 0;
-        color: #fff;
-        background: #38cb89;
-        padding: 0 30px;
-        height: 25px;
-        line-height: 1px;
-        border-width: 0;
-        border-radius: 4px;
-        text-decoration: none;
-        margin-top: 25px;
-
-
-    }
-
-    .style-standard a {
-        margin-left: 20px;
-    }
-
-    .style-standard>img {
-        visibility: hidden;
-        margin-right: 0px;
     }
 }
