@@ -179,7 +179,6 @@
 .wrap-imagens>div {
     flex: 1 1 400px;
     margin: 20px;
-
 }
 
 .landing-miniatura img {
@@ -329,18 +328,21 @@
 
 
 .icon1:hover {
-    background: #38cb89;
+    animation-name: up;
+    animation-duration: 2s;
 
 }
 
 .icon2:hover {
-    background: #38cb89;
+
+    animation-name: up;
+    animation-duration: 2s;
 
 }
 
 .icon3:hover {
-    background: #38cb89;
-
+    animation-name: up;
+    animation-duration: 2s;
 }
 
 
@@ -360,13 +362,14 @@
 
 .titulo_e_subtitulo {
     text-align: center;
-    margin-top: 100px;
+    padding
 }
 
 .titulo3 {
     display: flex;
     justify-content: center;
     color: #2e3280;
+    padding: 100px 0px 0px 0px;
 }
 
 .titulo3 h2 {
@@ -383,24 +386,33 @@
     color: gray;
 }
 
+.content-sec1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
 .container-area-section3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 100%;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-bottom: 100px;
 }
+
+
 
 .img00 {
     max-width: 100%;
+
 }
 
 .container-area-section3>div {
     flex: 1 1 400px;
     margin: 10px;
     padding: 50px;
-
 }
 
 
@@ -483,6 +495,80 @@
     margin-bottom: 200px;
 
 }
+
+
+.backtop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(-259deg, #5e60e7, #9c7af2);
+}
+
+.backtop>a {
+    color: white;
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+
+/* INTERAÇÕES COM HOVER*/
+
+.landing-miniatura img:hover {
+    animation-name: up;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+.content-sec1:hover {
+    animation-name: shadow;
+    animation-duration: 1s;
+}
+
+
+@keyframes up {
+    from {
+        background: #38cb89;
+        opacity: 0.6;
+
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+@keyframes shadow {
+    from {
+        box-shadow: 6px 6px 100px rgb(221, 221, 221);
+    }
+
+    to {
+
+        box-shadow: 0px 0px 0px rgb(248, 248, 248);
+    }
+}
+
+
+@keyframes buttons-download-and-buynow {
+    from {}
+
+    to {}
+}
+
+
+
+
+
 
 /*MEDIA QUERY */
 @media (max-width: 741px) {
