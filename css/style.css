@@ -362,7 +362,6 @@
 
 .titulo_e_subtitulo {
     text-align: center;
-    padding
 }
 
 .titulo3 {
@@ -463,7 +462,7 @@
     font-weight: 500;
     line-height: 1.34;
     color: white;
-    width: 100%
+    width: 100%;
 }
 
 .paragrafo-footer {
@@ -499,10 +498,10 @@
 
 .backtop {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 70px;
-    height: 70px;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: linear-gradient(-259deg, #5e60e7, #9c7af2);
 }
@@ -510,9 +509,9 @@
 .backtop>a {
     color: white;
     position: absolute;
-    right: 25px;
-    bottom: 10px;
-    font-size: 40px;
+    right: 12px;
+    bottom: 0px;
+    font-size: 30px;
     text-decoration: none;
 }
 
