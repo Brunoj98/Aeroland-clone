@@ -12,13 +12,11 @@
 </head>
 
 <body>
-
-    <script type="text/javascript" src="js/script.js"></script>
     <!--LOGO DO SITE-->
     <div class="landing-hero-area">
 
 
-        <nav class="navbar">
+        <nav id="topo" class="navbar">
             <div class="logo">
                 <img src=".//image/logo.png" alt="logo land">
             </div>
@@ -57,10 +55,6 @@
                         <img src=".//image/landing.png" alt="">
                     </div>
                 </div>
-            </div>
-
-            <div id="top" class="backtop">
-                <a href=""> <span>^</span> </a>
             </div>
 
         </header>
@@ -330,8 +324,22 @@
             </div>
 
 
-        </div>
+            <!-- AQUI É A LINHA ED CÓDIGO DO BOTÃO SCROLL-->
+            <div data-scroll="suave" data-anima="scroll">
+                <a href="#topo">
+                    <div class="topo">
+                        <img src="image/up-arrow.png" alt="ir para o topo">
+                    </div>
+                </a>
+                <div>
+                </div>
+
+
     </footer>
+
+    <script src="/js/scroll-animation.js"></script>
+    <script src="/js/scroll-suave.js"></script>
+
 
 </body>
 
